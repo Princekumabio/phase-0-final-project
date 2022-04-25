@@ -65,7 +65,7 @@ ul {
 p {
     font-size:small;
     display: flex;
-    align-items: right;
+    align-items:center;
     position: sticky;
     top: 30px;
     padding-top: -20px;
@@ -138,16 +138,19 @@ margin: 00px;
 } 
 /*Portfolio*/
 #proj img{
-    width: 270px;
-    height: 265px;
+    width: 280px;
+    height: 300px;
     border-radius: 15%;
-    padding-left: 5px;
+    padding-left: 10px;
 }
 #proj div {
     text-align: center;
-    margin: 10px;
+    margin: 15px;
 }
+#proj p{
+    text-align: center;
 
+}
 #proj  {
     background-color: whitesmoke;
     /*padding: 20px 20px 20px 20px;*/
