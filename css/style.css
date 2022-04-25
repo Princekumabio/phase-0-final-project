@@ -25,7 +25,7 @@ body {
     align-self: center;   
 }
 ul {
-    padding: 500px;
+    padding: 650px;
     margin: 5px;
     display: flex;
     overflow: hidden;
@@ -42,6 +42,7 @@ ul {
     position: sticky;
     top: 30px;
     padding-top: 20px;
+    margin: 2px;
 } 
 .myself {
     width: 340px;
@@ -71,18 +72,18 @@ p {
 }
 /*Skills  */
 #skill{
-    padding: 1px 20px 20 20px;
+    /*padding: 20px 20px 20 20px;*/
     display: flex;
     align-items: right;
     position: sticky;
     top: 30px;
-    padding-top: 5px;
+    padding-right: 5px;
 } 
 #skil img{
     width: 230px;
     height: 230px;
     border-radius: 50%;
-    padding-left: 5px;
+    padding-right: px;
 }
 
 #skil div{
@@ -137,24 +138,25 @@ margin: 00px;
 } 
 /*Portfolio*/
 #proj img{
-    width: 230px;
-    height: 230px;
+    width: 270px;
+    height: 265px;
     border-radius: 15%;
     padding-left: 5px;
-    box-shadow: #04071d;
 }
 #proj div {
     text-align: center;
+    margin: 10px;
 }
 
 #proj  {
     background-color: whitesmoke;
-    padding: 20px 20px 20px 20px;
+    /*padding: 20px 20px 20px 20px;*/
     display: flex;
-    align-items: right;
+    align-items: center;
     position: sticky;
-    top: 30px;
-    margin: 5px;
+    top: 10px;
+    margin: 2px;
+    padding-left: 15px;
 }
 
 nav {
@@ -195,7 +197,8 @@ a.button {
     background-color: rgb(11, 1, 63);
     display: flex;
     align-items: center;
-    padding-top: 10px;
+    padding-top: 0px;
+    
 }
 .footer a{
     text-decoration: none;
@@ -205,8 +208,7 @@ a.button {
  .footer a span{
      color: var(--primary);
  }
- #footer img {
-    width: 25px;
-    height: 25px;
-
+ .footer img {
+    width: 10px;
+    height: 10px;
  }
